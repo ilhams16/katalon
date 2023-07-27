@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2 - Login with null username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4b1f04b-7dad-40bb-9018-c4f0d0d0efc9</testCaseGuid>
+</TestCaseEntity>

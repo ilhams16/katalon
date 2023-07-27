@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5 - Login with username not exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>691461fe-f5e3-4600-83bc-f0cd50d53bbe</testCaseGuid>
+</TestCaseEntity>
