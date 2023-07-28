@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3 - Checkout with null first name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a92451a0-86cc-450f-ac7c-40b503e7c591</testCaseGuid>
+</TestCaseEntity>

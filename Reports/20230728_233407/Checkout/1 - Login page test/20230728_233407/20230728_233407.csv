@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1 - Login page test,Edge Chromium 115,,,2023-07-28 23:34:15,2023-07-28 23:35:36,1m - 20.627s,PASSED
+,,,,,,,
+Test Cases/S01 - Login/1 - Login with valid user and pass,Edge Chromium 115,,,2023-07-28 23:34:16,2023-07-28 23:34:37,20.878s,PASSED
+"openBrowser("""")",Edge Chromium 115,,,2023-07-28 23:34:17,2023-07-28 23:34:25,7.557s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 115,,,2023-07-28 23:34:25,2023-07-28 23:34:32,7.287s,PASSED
+"setText(findTestObject(""Login/Fld-Username""), ""standard_user"")",Edge Chromium 115,,,2023-07-28 23:34:32,2023-07-28 23:34:34,1.359s,PASSED
+"setEncryptedText(findTestObject(""Login/Fld-Password""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 115,,,2023-07-28 23:34:34,2023-07-28 23:34:35,1.274s,PASSED
+"click(findTestObject(""Login/Btn-Login""))",Edge Chromium 115,,,2023-07-28 23:34:35,2023-07-28 23:34:36,0.904s,PASSED
+closeBrowser(STOP_ON_FAILURE),Edge Chromium 115,,,2023-07-28 23:34:36,2023-07-28 23:34:37,1.259s,PASSED
+,,,,,,,
+Test Cases/S01 - Login/2 - Login with valid pass,Edge Chromium 115,,,2023-07-28 23:34:37,2023-07-28 23:34:54,16.962s,PASSED
+"openBrowser("""")",Edge Chromium 115,,,2023-07-28 23:34:38,2023-07-28 23:34:42,3.869s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 115,,,2023-07-28 23:34:42,2023-07-28 23:34:52,9.767s,PASSED
+"setEncryptedText(findTestObject(""Login/Fld-Password""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 115,,,2023-07-28 23:34:52,2023-07-28 23:34:53,0.814s,PASSED
+"click(findTestObject(""Login/Btn-Login""))",Edge Chromium 115,,,2023-07-28 23:34:53,2023-07-28 23:34:53,0.741s,PASSED
+closeBrowser(STOP_ON_FAILURE),Edge Chromium 115,,,2023-07-28 23:34:53,2023-07-28 23:34:54,0.834s,PASSED
+,,,,,,,
+Test Cases/S01 - Login/3 - Login with valid user,Edge Chromium 115,,,2023-07-28 23:34:54,2023-07-28 23:35:05,11.356s,PASSED
+"openBrowser("""")",Edge Chromium 115,,,2023-07-28 23:34:55,2023-07-28 23:34:59,3.634s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 115,,,2023-07-28 23:34:59,2023-07-28 23:35:03,4.163s,PASSED
+"setText(findTestObject(""Login/Fld-Username""), ""standard_user"")",Edge Chromium 115,,,2023-07-28 23:35:03,2023-07-28 23:35:04,1.213s,PASSED
+"click(findTestObject(""Login/Btn-Login""))",Edge Chromium 115,,,2023-07-28 23:35:04,2023-07-28 23:35:05,0.644s,PASSED
+closeBrowser(STOP_ON_FAILURE),Edge Chromium 115,,,2023-07-28 23:35:05,2023-07-28 23:35:05,0.850s,PASSED
+,,,,,,,
+Test Cases/S01 - Login/4 - Login with locked user,Edge Chromium 115,,,2023-07-28 23:35:05,2023-07-28 23:35:18,12.412s,PASSED
+"openBrowser("""")",Edge Chromium 115,,,2023-07-28 23:35:06,2023-07-28 23:35:10,3.586s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 115,,,2023-07-28 23:35:10,2023-07-28 23:35:14,3.573s,PASSED
+"setText(findTestObject(""Login/Fld-Username""), ""locked_out_user"")",Edge Chromium 115,,,2023-07-28 23:35:14,2023-07-28 23:35:15,1.157s,PASSED
+"setEncryptedText(findTestObject(""Login/Fld-Password""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 115,,,2023-07-28 23:35:15,2023-07-28 23:35:16,1.038s,PASSED
+"click(findTestObject(""Login/Btn-Login""))",Edge Chromium 115,,,2023-07-28 23:35:16,2023-07-28 23:35:16,0.786s,PASSED
+closeBrowser(STOP_ON_FAILURE),Edge Chromium 115,,,2023-07-28 23:35:16,2023-07-28 23:35:18,1.387s,PASSED
+,,,,,,,
+Test Cases/S01 - Login/5 - Login with problem user,Edge Chromium 115,,,2023-07-28 23:35:18,2023-07-28 23:35:36,18.073s,PASSED
+"openBrowser("""")",Edge Chromium 115,,,2023-07-28 23:35:19,2023-07-28 23:35:23,3.884s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Edge Chromium 115,,,2023-07-28 23:35:23,2023-07-28 23:35:32,9.456s,PASSED
+"setText(findTestObject(""Login/Fld-Username""), ""problem_user"")",Edge Chromium 115,,,2023-07-28 23:35:32,2023-07-28 23:35:33,1.111s,PASSED
+"setEncryptedText(findTestObject(""Login/Fld-Password""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 115,,,2023-07-28 23:35:33,2023-07-28 23:35:34,0.821s,PASSED
+"click(findTestObject(""Login/Btn-Login""))",Edge Chromium 115,,,2023-07-28 23:35:34,2023-07-28 23:35:35,1.007s,PASSED
+closeBrowser(STOP_ON_FAILURE),Edge Chromium 115,,,2023-07-28 23:35:35,2023-07-28 23:35:36,0.939s,PASSED

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1 - Login page test" time="80.627" tests="5" failures="0" errors="0">
+   <testsuite name="1 - Login page test" tests="5" failures="0" errors="0" time="80.627" skipped="0" timestamp="2023-07-28 23:34:15" hostname="Administrator - NexusLite-PC.mshome.net" id="Test Suites/Checkout/1 - Login page test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\latihan\\Reports\\20230728_233407\\Checkout\\1 - Login page test\\20230728_233407"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\latihan\\Reports\\20230728_233407\\Checkout\\1 - Login page test\\20230728_233407\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - NexusLite-PC.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 115"/>
+         <property name="hostAddress" value="192.168.137.30"/>
+         <property name="sessionId" value="6007b2d256ce7173e291e18e79c90eb0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/S01 - Login/1 - Login with valid user and pass" time="20.878" classname="Test Cases/S01 - Login/1 - Login with valid user and pass" status="PASSED">
+         <system-out><![CDATA[2023-07-28 23:34:16 - [TEST_CASE][PASSED] - Test Cases/S01 - Login/1 - Login with valid user and pass: Test Cases/S01 - Login/1 - Login with valid user and pass
+
+2023-07-28 23:34:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-28 23:34:19 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-07-28 23:34:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-28 23:34:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-28 23:34:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-07-28 23:34:32 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-07-28 23:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Fld-Username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Login/Fld-Username'
+
+2023-07-28 23:34:34 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/Fld-Username'
+
+2023-07-28 23:34:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Fld-Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login/Fld-Password'
+
+2023-07-28 23:34:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Fld-Password'
+
+2023-07-28 23:34:35 - [TEST_STEP][PASSED] - click(findTestObject("Login/Btn-Login")): Object: 'Object Repository/Login/Btn-Login' is clicked on
+
+2023-07-28 23:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Btn-Login' is clicked on
+
+2023-07-28 23:34:36 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-07-28 23:34:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/S01 - Login/2 - Login with valid pass" time="16.962" classname="Test Cases/S01 - Login/2 - Login with valid pass" status="PASSED">
+         <system-out><![CDATA[2023-07-28 23:34:37 - [TEST_CASE][PASSED] - Test Cases/S01 - Login/2 - Login with valid pass: Test Cases/S01 - Login/2 - Login with valid pass
+
+2023-07-28 23:34:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-28 23:34:38 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-07-28 23:34:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-28 23:34:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-28 23:34:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-07-28 23:34:52 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-07-28 23:34:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Fld-Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login/Fld-Password'
+
+2023-07-28 23:34:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Fld-Password'
+
+2023-07-28 23:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/Btn-Login")): Object: 'Object Repository/Login/Btn-Login' is clicked on
+
+2023-07-28 23:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Btn-Login' is clicked on
+
+2023-07-28 23:34:53 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-07-28 23:34:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/S01 - Login/3 - Login with valid user" time="11.356" classname="Test Cases/S01 - Login/3 - Login with valid user" status="PASSED">
+         <system-out><![CDATA[2023-07-28 23:34:54 - [TEST_CASE][PASSED] - Test Cases/S01 - Login/3 - Login with valid user: Test Cases/S01 - Login/3 - Login with valid user
+
+2023-07-28 23:34:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-28 23:34:55 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-07-28 23:34:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-28 23:34:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-28 23:34:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-07-28 23:35:03 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-07-28 23:35:03 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Fld-Username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Login/Fld-Username'
+
+2023-07-28 23:35:04 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/Fld-Username'
+
+2023-07-28 23:35:04 - [TEST_STEP][PASSED] - click(findTestObject("Login/Btn-Login")): Object: 'Object Repository/Login/Btn-Login' is clicked on
+
+2023-07-28 23:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Btn-Login' is clicked on
+
+2023-07-28 23:35:05 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-07-28 23:35:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/S01 - Login/4 - Login with locked user" time="12.412" classname="Test Cases/S01 - Login/4 - Login with locked user" status="PASSED">
+         <system-out><![CDATA[2023-07-28 23:35:05 - [TEST_CASE][PASSED] - Test Cases/S01 - Login/4 - Login with locked user: Test Cases/S01 - Login/4 - Login with locked user
+
+2023-07-28 23:35:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-28 23:35:06 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-07-28 23:35:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-28 23:35:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-28 23:35:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-07-28 23:35:14 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-07-28 23:35:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Fld-Username"), "locked_out_user"): Text 'locked_out_user' is set on object 'Object Repository/Login/Fld-Username'
+
+2023-07-28 23:35:15 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/Login/Fld-Username'
+
+2023-07-28 23:35:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Fld-Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login/Fld-Password'
+
+2023-07-28 23:35:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Fld-Password'
+
+2023-07-28 23:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Login/Btn-Login")): Object: 'Object Repository/Login/Btn-Login' is clicked on
+
+2023-07-28 23:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Btn-Login' is clicked on
+
+2023-07-28 23:35:16 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-07-28 23:35:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/S01 - Login/5 - Login with problem user" time="18.073" classname="Test Cases/S01 - Login/5 - Login with problem user" status="PASSED">
+         <system-out><![CDATA[2023-07-28 23:35:18 - [TEST_CASE][PASSED] - Test Cases/S01 - Login/5 - Login with problem user: Test Cases/S01 - Login/5 - Login with problem user
+
+2023-07-28 23:35:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-28 23:35:19 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-07-28 23:35:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-28 23:35:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-28 23:35:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-07-28 23:35:32 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-07-28 23:35:32 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Fld-Username"), "problem_user"): Text 'problem_user' is set on object 'Object Repository/Login/Fld-Username'
+
+2023-07-28 23:35:33 - [MESSAGE][PASSED] - Text 'problem_user' is set on object 'Object Repository/Login/Fld-Username'
+
+2023-07-28 23:35:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Fld-Password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Login/Fld-Password'
+
+2023-07-28 23:35:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Fld-Password'
+
+2023-07-28 23:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Login/Btn-Login")): Object: 'Object Repository/Login/Btn-Login' is clicked on
+
+2023-07-28 23:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Btn-Login' is clicked on
+
+2023-07-28 23:35:35 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-07-28 23:35:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-28 23:34:15 - [TEST_SUITE][PASSED] - 1 - Login page test: Test Cases/S01 - Login/5 - Login with problem user]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

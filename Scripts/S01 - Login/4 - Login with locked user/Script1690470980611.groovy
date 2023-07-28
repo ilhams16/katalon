@@ -21,9 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Page_Swag Labs/input_Swag Labs_user-name'), 'locked_out_user')
+WebUI.setText(findTestObject('Login/Fld-Username'), 'locked_out_user')
 
-WebUI.setEncryptedText(findTestObject('Page_Swag Labs/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setEncryptedText(findTestObject('Login/Fld-Password'), 'qcu24s4901FyWDTwXGr6XA==')
 
-WebUI.click(findTestObject('Page_Swag Labs/input_Swag Labs_login-button'))
+WebUI.click(findTestObject('Login/Btn-Login'))
+
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

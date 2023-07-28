@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+2 - Home page test,Edge Chromium 115,,,2023-07-28 23:41:57,2023-07-28 23:43:59,2m - 1.690s,FAILED
+,,,,,,,
+Test Cases/S02 - Homepage/1 - Add to cart,Edge Chromium 115,,,2023-07-28 23:41:58,2023-07-28 23:42:22,23.700s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-07-28 23:42:00,2023-07-28 23:42:20,20.395s,PASSED
+"click(findTestObject(""Home/Btn_Add to cart""))",Edge Chromium 115,,,2023-07-28 23:42:20,2023-07-28 23:42:21,1.117s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-07-28 23:42:21,2023-07-28 23:42:22,0.920s,PASSED
+,,,,,,,
+Test Cases/S02 - Homepage/10 - Logout,Edge Chromium 115,,,2023-07-28 23:42:22,2023-07-28 23:42:36,14.244s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-07-28 23:42:23,2023-07-28 23:42:34,10.657s,PASSED
+"click(findTestObject(""Home/Btn_Open Menu""))",Edge Chromium 115,,,2023-07-28 23:42:34,2023-07-28 23:42:35,1.038s,PASSED
+"click(findTestObject(""Home/Btn_Logout""))",Edge Chromium 115,,,2023-07-28 23:42:35,2023-07-28 23:42:35,0.730s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-07-28 23:42:35,2023-07-28 23:42:36,0.905s,PASSED
+,,,,,,,
+Test Cases/S02 - Homepage/2 - Add to cart (more then 1),Edge Chromium 115,,,2023-07-28 23:42:36,2023-07-28 23:42:58,21.326s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-07-28 23:42:37,2023-07-28 23:42:54,17.211s,PASSED
+"click(findTestObject(""Home/Btn_Add to cart_Sauce labs backpack""))",Edge Chromium 115,,,2023-07-28 23:42:54,2023-07-28 23:42:55,1.009s,PASSED
+"click(findTestObject(""Home/Btn_Add to cart_Sauce labs bike""))",Edge Chromium 115,,,2023-07-28 23:42:55,2023-07-28 23:42:56,0.725s,PASSED
+"click(findTestObject(""Home/Btn_Add to cart_Sauce labs bolt""))",Edge Chromium 115,,,2023-07-28 23:42:56,2023-07-28 23:42:57,0.575s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-07-28 23:42:57,2023-07-28 23:42:58,0.915s,PASSED
+,,,,,,,
+Test Cases/S02 - Homepage/3 - Check cart,Edge Chromium 115,,,2023-07-28 23:42:58,2023-07-28 23:43:12,14.621s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-07-28 23:42:59,2023-07-28 23:43:10,10.864s,PASSED
+"click(findTestObject(""Home/Btn_Add to cart""))",Edge Chromium 115,,,2023-07-28 23:43:10,2023-07-28 23:43:11,1.100s,PASSED
+"click(findTestObject(""Home/Btn_Cart""))",Edge Chromium 115,,,2023-07-28 23:43:11,2023-07-28 23:43:11,0.691s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-07-28 23:43:11,2023-07-28 23:43:12,0.960s,PASSED
+,,,,,,,
+Test Cases/S02 - Homepage/4 - Remove any product,Edge Chromium 115,,,2023-07-28 23:43:12,2023-07-28 23:43:28,15.517s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-07-28 23:43:13,2023-07-28 23:43:25,11.617s,PASSED
+"click(findTestObject(""Home/Btn_Add to cart""))",Edge Chromium 115,,,2023-07-28 23:43:25,2023-07-28 23:43:26,1.071s,PASSED
+"click(findTestObject(""Home/Btn_Remove""))",Edge Chromium 115,,,2023-07-28 23:43:26,2023-07-28 23:43:27,0.583s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-07-28 23:43:27,2023-07-28 23:43:28,1.068s,PASSED
+,,,,,,,
+Test Cases/S02 - Homepage/5 - Sort product,Edge Chromium 115,,,2023-07-28 23:43:28,2023-07-28 23:43:41,13.600s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-07-28 23:43:29,2023-07-28 23:43:39,10.400s,PASSED
+"selectOptionByValue(findTestObject(""Home/Sorting""), ""za"", true)",Edge Chromium 115,,,2023-07-28 23:43:39,2023-07-28 23:43:41,2.297s,FAILED
+,,,,,,,
+Test Cases/S02 - Homepage/9 - Detail product,Edge Chromium 115,,,2023-07-28 23:43:41,2023-07-28 23:43:59,17.715s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Edge Chromium 115,,,2023-07-28 23:43:42,2023-07-28 23:43:56,13.673s,PASSED
+"click(findTestObject(""Home/Sauce Labs Backpack""))",Edge Chromium 115,,,2023-07-28 23:43:56,2023-07-28 23:43:57,1.113s,PASSED
+closeBrowser(),Edge Chromium 115,,,2023-07-28 23:43:57,2023-07-28 23:43:59,1.967s,PASSED

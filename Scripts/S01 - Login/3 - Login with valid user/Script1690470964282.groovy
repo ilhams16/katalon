@@ -21,7 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Page_Swag Labs/input_Swag Labs_user-name'), 'standard_user')
+WebUI.setText(findTestObject('Login/Fld-Username'), 'standard_user')
 
-WebUI.click(findTestObject('Page_Swag Labs/input_Swag Labs_login-button'))
+WebUI.click(findTestObject('Login/Btn-Login'))
+
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
