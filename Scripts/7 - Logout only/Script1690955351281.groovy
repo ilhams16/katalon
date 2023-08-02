@@ -17,23 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Administrator\\Downloads\\Android-MyDemoAppRN.1.2.0.build-231.apk', true)
+Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (9)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Log Out'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Name - Descending'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - LOG OUT'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Price - Ascending (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Price - Descending'), 0)
-
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Name - Ascending'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - OK'), 0)
 
 Mobile.closeApplication()
 

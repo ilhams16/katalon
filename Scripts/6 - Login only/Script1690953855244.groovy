@@ -19,21 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\Administrator\\Downloads\\Android-MyDemoAppRN.1.2.0.build-231.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (11)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Name - Descending'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Log In'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - bobexample.com'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Price - Ascending (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Price - Descending'), 0)
-
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Name - Ascending'), 0)
-
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (3)'), 0)
 
