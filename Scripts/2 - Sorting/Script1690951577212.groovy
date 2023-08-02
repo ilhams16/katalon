@@ -23,15 +23,15 @@ Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Name - Descending'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
+Mobile.tap(findTestObject(''), 0)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Price - Ascending (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (6)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Price - Descending'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (2)'), 0)
+Mobile.tap(findTestObject(''), 0)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Name - Ascending'), 0)
 
