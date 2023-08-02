@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5 - UpdateBooking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1aaedfb-5932-466b-8083-12ce054c469b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94b1a525-58bf-4ef7-a9a0-86dd4fbbdf7a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>94b1a525-58bf-4ef7-a9a0-86dd4fbbdf7a</id>
+      <masked>false</masked>
+      <name>myresp</name>
+   </variable>
+</TestCaseEntity>

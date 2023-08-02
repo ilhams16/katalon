@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>8 - HealthCheck</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4f47472a-7652-4c4e-aba5-16d24461655c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc662083-9aaf-44cc-b640-cd1819646254</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc662083-9aaf-44cc-b640-cd1819646254</id>
+      <masked>false</masked>
+      <name>myresp</name>
+   </variable>
+</TestCaseEntity>

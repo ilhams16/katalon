@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 - CreateBooking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>697c6350-cb6a-4578-8f87-1fb2d9889e59</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f1a2171a-1dce-4a36-bff7-7ccd4db5f959</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f1a2171a-1dce-4a36-bff7-7ccd4db5f959</id>
+      <masked>false</masked>
+      <name>myresp</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>7 - DeleteBooking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96d7fff1-cf43-4c15-a168-38656be8dd0a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75fb179a-fd36-4732-8cf0-2bff12376d95</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>75fb179a-fd36-4732-8cf0-2bff12376d95</id>
+      <masked>false</masked>
+      <name>myresp</name>
+   </variable>
+</TestCaseEntity>

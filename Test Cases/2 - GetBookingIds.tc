@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2 - GetBookingIds</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66e0df69-aa9d-431e-80e8-ab4d4414eddf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53a820cf-2f0e-489a-add6-50947aeb90d2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>53a820cf-2f0e-489a-add6-50947aeb90d2</id>
+      <masked>false</masked>
+      <name>myresp</name>
+   </variable>
+</TestCaseEntity>

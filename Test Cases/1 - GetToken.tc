@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1 - GetToken</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>820893d4-7ca1-405c-a063-84e110c71565</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3765d213-729f-4644-98f7-193f5f0d6041</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3765d213-729f-4644-98f7-193f5f0d6041</id>
+      <masked>false</masked>
+      <name>myresp</name>
+   </variable>
+</TestCaseEntity>
